@@ -34,6 +34,7 @@ export class DialogOptions {
   okBtnDisabled?: boolean = false;
   closeOnPopstate?: boolean = false;
   lockScroll?: boolean = true;
+  teleportDisable?: boolean = true;
 }
 
 class DialogFunction {
