@@ -34,6 +34,7 @@ export class DialogOptions {
   okBtnDisabled?: boolean = false;
   closeOnPopstate?: boolean = false;
   lockScroll?: boolean = true;
+  teleportDisable?: boolean = true; // 是否禁用 teleport（CreateComponent 不使用 teleport）
 }
 
 class DialogFunction {
